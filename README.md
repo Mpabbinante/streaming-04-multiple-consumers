@@ -1,6 +1,6 @@
 Mike Abbinante 09/15/23
 
-# Project Overview
+# Project: streaming-04-multiple-consumers
  This project is to stream a data queue to multiple consumers using RabbitMQ and Pika.
 
 # Instructions
