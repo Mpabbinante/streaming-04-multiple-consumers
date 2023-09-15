@@ -1,3 +1,13 @@
+Mike Abbinante 09/15/23
+
+# Project Overview
+ This project is to stream a data queue to multiple consumers using RabbitMQ and Pika.
+
+# Instructions
+ 1. Run emitter_of_tasks.py (y to monitor RabbitMQ queues)
+ 2. Run listening_worker.py
+ 3. Run V2 of these and compare
+ 4. Create V3 using a copy of V2 and modifying to read from csv file
 # streaming-04-multiple-consumers
 
 > Use RabbitMQ to distribute tasks to multiple workers
