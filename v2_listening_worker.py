@@ -2,16 +2,16 @@
     This program listens for work messages contiously. 
     Start multiple versions to add more workers.  
 
-    Author: Denise Case
-    Date: January 15, 2023
+      Author: Mike Abbinante
+    Date: 15Sep23
 
 """
-
+#Imported Modules
 import pika
 import sys
 import time
 
-# define a callback function to be called when a message is received
+# define callback function to be called when a message is received
 def callback(ch, method, properties, body):
     """ Define behavior on getting a message."""
     # decode the binary message body to a string

@@ -33,7 +33,8 @@ Explore the RabbitMQ website.
 
 1. Run listening_worker.py
 
-Will it terminate on its own? How do you know? 
+Q:Will it terminate on its own? How do you know? 
+A: No it will not terminate. You must do CTRL C to end the process.
 
 ## Ready for Work
 
@@ -47,7 +48,8 @@ Follow the tutorial.
 Add multiple tasks (e.g. First message, Second message, etc.)
 How are tasks distributed? 
 Monitor the windows with at least two workers. 
-Which worker gets which tasks?
+Q:Which worker gets which tasks? 
+A:They seem to be going to whichever one was available at the time.
 
 
 ## Reference
@@ -55,6 +57,9 @@ Which worker gets which tasks?
 - [RabbitMQ Tutorial - Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
 
 
-## Screenshot
+## Multiple Terminal Screenshot
 
 See a running example with at least 3 concurrent process windows here: ![Alt text](<Project screenshot.PNG>)
+
+## RabbitMQ Web Screenshot
+![Alt text](<RabbitMQ tasks.PNG>)

@@ -19,7 +19,7 @@ Terminal Reminders
 - Use the up arrow to get the last command executed.
 
 """
-
+#Imported Modules
 import pika
 import sys
 import os
